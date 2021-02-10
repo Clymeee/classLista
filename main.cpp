@@ -52,7 +52,7 @@ int main() {
     srand(time(NULL));
     Lista v(100);
     for(int i=0; i<99; i++){
-        v.add(string(rand()%10òl+1,'*'));
+        v.add(string(rand()%10+1,'*'));
     }
     v.add("poggers");
     v.print();
